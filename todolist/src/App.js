@@ -1,14 +1,12 @@
-import React from 'react';
-import {Box} from '@mui/material'
-import './App.css';
-import Todolist from './Todolist'
+import React from 'react'
+import Todolist from './componets/Todolist'
 
-function App() {
+const App = () => {
   return (
-    <Box sx={{flexGrow:1}}>
-        <Todolist/>
-    </Box>
-  );
+    <>
+      <Todolist/>
+    </>
+  )
 }
 
-export default App;
+export default App
